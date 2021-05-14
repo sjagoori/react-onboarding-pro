@@ -118,7 +118,7 @@ export const OnboardingStep = ({ step, isActive, displayNext, goToNextStep, disp
                 name={field.name}
                 placeholder={field.placeholder}
                 onChange={updateForm}
-                value={form[field.name]}
+                value={field.value}
               />
             </div>
           )
